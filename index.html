@@ -4,27 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- 1. Name your web page -->
-    <title></title>
+    <title>Portfolio</title>
 
     <!-- 7. Import Stylesheet -->
-
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
     <!-- 2. Name and Info -->
     <header>
-
+        <h1>Ty Cleveland</h1>
+        <h2>Student at University of Guelph</h2>
+        <p>I am 18 years old</p>
+        <p>Guelph, ON</p>
+        <p>tycleveland82@gmail.com</p>
     </header>
 
     <!-- 3. About Me -->
-    <section>
+    <section class="about">
         <!-- 3a. The About Me Section -->
-
-
+        <div class="aboutme">
+            <h2>About me</h2>
+            <p>My name is Ty, I am attending a web dev workshop.</p>
+        </div>
         <!-- 4. Add a Picture -->
         <div>
-
+            <img src="images/photo.png" style="width: 200px">
         </div>
     </section>
 
@@ -33,10 +39,25 @@
     <section class="projects">
         <div>
             <!-- 5a. Add project title -->
-            <h4></h4>
+            <h4 ><a href="youtube.com"></a>Portfolio Project</h4>
 
             <!-- 5b. Add project description -->
+            <ul>
+                <li>Learned about HTML</li>
+                <li>Learned about VScode</li>
 
+            </ul>
+
+        </div>
+        <div>
+            <!-- 5a. Add project title -->
+            <h4 ><a href="youtube.com"></a>Calculator Project</h4>
+
+            <!-- 5b. Add project description -->
+            <ul>
+                <li>Adding</li>
+                <li>Subtraction</li>
+            </ul>
 
         </div>
     </section>
@@ -46,7 +67,8 @@
         <h2>Connect With Me!</h2>
         <!-- 6a. Make a button -->
         <!-- 6b. Make it redirectable -->
-
+        <a href="linkedin.ca" target="_blank"><button>LinkedIN</button></a>
+        <a href="discord.ca" target="_blank"><button>discord</button></a>
     </footer>
 </body>
 </html>
